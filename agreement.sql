@@ -78,7 +78,7 @@ CREATE TABLE agreementtemp (
   witness2signed boolean DEFAULT false,
   createddate timestamp DEFAULT CURRENT_TIMESTAMP,
   repaymentdate date NOT NULL,
-  updateddate date,
+  updateddate date
  );
 
 

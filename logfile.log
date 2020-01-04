@@ -249,3 +249,15 @@
 {"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-04T03:20:40.992Z"}
 {"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-04T03:45:10.523Z"}
 {"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-04T03:48:20.854Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-04T06:59:23.974Z"}
+{"message":"Cannot convert undefined or null to object","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.keys (<anonymous>)\n    at router.post (C:\\projects\\babatunde\\etoileApi\\routes\\users.js:59:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)","level":"error","timestamp":"2020-01-04T07:00:27.454Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-04T07:02:29.056Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-04T07:03:11.378Z"}
+{"level":"error","message":"Error while accessing database:  ER_DUP_ENTRY: Duplicate entry '93698765175' for key 'phone'...","timestamp":"2020-01-04T07:04:16.694Z"}
+{"level":"error","message":"undefined 'ER_DUP_ENTRY: Duplicate entry \\'93698765175\\' for key \\'phone\\''","timestamp":"2020-01-04T07:04:16.699Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-04T07:07:51.843Z"}
+{"level":"error","message":"Error while accessing database:  ER_DUP_ENTRY: Duplicate entry '93698765175' for key 'phone'...","timestamp":"2020-01-04T07:07:55.318Z"}
+{"level":"error","message":"undefined 'ER_DUP_ENTRY: Duplicate entry \\'93698765175\\' for key \\'phone\\''","timestamp":"2020-01-04T07:07:55.322Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-04T07:08:11.845Z"}
+{"level":"error","message":"Error while accessing database:  ER_DUP_ENTRY: Duplicate entry '93698765175' for key 'phone'...","timestamp":"2020-01-04T07:08:15.051Z"}
+{"level":"error","message":"undefined 'ER_DUP_ENTRY: Duplicate entry \\'93698765175\\' for key \\'phone\\''","timestamp":"2020-01-04T07:08:15.057Z"}

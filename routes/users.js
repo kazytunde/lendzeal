@@ -52,18 +52,16 @@ router.post("/", async (req, res) => {
 
   //Get agreementtemp with the email, check if user needs to sign agreement
   const agreement = await getAgreementBySigner(savedUser.email);
-  console.log("agreement", agreement);
-
   //check if the agreement is available
 
-  const partial = Object.keys(agreement).find(
-    key => agreement[key] === savedUser.email
-  );
+  if (agreement) {
+    const partial = Object.keys(agreement).find(
+      key => agreement[key] === savedUser.email
+    );
 
-  const column = partial + "signed";
-  console.log("column", column);
-
-  await updateAgreementBySigner(column, savedUser.email);
+    const column = partial + "signed";
+    await updateAgreementBySigner(column, savedUser.email);
+  }
 
   res
     .header("x-auth-token", token)
