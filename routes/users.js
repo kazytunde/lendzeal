@@ -12,6 +12,11 @@ const {
   getUserById
 } = require("../models/query/user");
 
+const {
+  updateAgreementBySigner,
+  getAgreementBySigner
+} = require("../models/query/agreement");
+
 router.get("/me", auth, async (req, res) => {
   const user = await getUserById(req.user.userid);
   res.send(
@@ -22,8 +27,9 @@ router.get("/me", auth, async (req, res) => {
 router.post("/", async (req, res) => {
   const { error } = validateUser(req.body);
   if (error) return res.status(400).send(error.details[0].message);
+  const { email } = req.body.email;
 
-  const retrievedUser = await getUserByEmail(req.body.email);
+  const retrievedUser = await getUserByEmail(email);
   if (retrievedUser !== undefined)
     return res.status(400).send("User already registered.");
 
@@ -35,16 +41,29 @@ router.post("/", async (req, res) => {
     "password"
   ]);
 
-  console.log(user);
-
   const salt = await bcrypt.genSalt(10);
   user.password = await bcrypt.hash(user.password, salt);
 
   await registerUser(user);
 
-  let savedUser = await getUserByEmail(req.body.email);
+  let savedUser = await getUserByEmail(user.email);
 
   const token = await generateAuthToken(savedUser);
+
+  //Get agreementtemp with the email, check if user needs to sign agreement
+  const agreement = await getAgreementBySigner(savedUser.email);
+  console.log("agreement", agreement);
+
+  //check if the agreement is available
+
+  const partial = Object.keys(agreement).find(
+    key => agreement[key] === savedUser.email
+  );
+
+  const column = partial + "signed";
+  console.log("column", column);
+
+  await updateAgreementBySigner(column, savedUser.email);
 
   res
     .header("x-auth-token", token)

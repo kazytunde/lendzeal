@@ -91,7 +91,7 @@ const generateAuthToken = async user => {
 
   const roles = response.filter(({ role }) => role === "admin");
   const token = jwt.sign(
-    { userid: user.userid, isAdmin: !isEmpty(roles) },
+    { email: user.email, isAdmin: !isEmpty(roles) },
     config.get("jwtPrivateKey")
   );
 

@@ -1,0 +1,251 @@
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T03:05:44.403Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T17:21:44.746Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T17:22:03.102Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T17:22:56.600Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T17:31:00.296Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T17:49:31.098Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T17:50:55.438Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T17:52:03.463Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T17:52:18.723Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T17:52:58.051Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T17:53:18.953Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T17:54:58.876Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T21:07:08.871Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T21:08:15.552Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T21:14:19.564Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T21:14:49.579Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T21:15:18.040Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T21:16:11.335Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T21:18:00.159Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T22:23:26.501Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T22:24:06.285Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T23:11:13.162Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T23:11:21.504Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T23:12:46.833Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T23:27:11.254Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T23:27:42.659Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T23:29:07.772Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T23:29:37.642Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T23:29:52.989Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T23:32:27.362Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T23:43:28.158Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T23:45:10.665Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T23:46:21.731Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T23:48:19.174Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T23:48:34.425Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T23:48:52.471Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T23:49:23.695Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T23:49:41.087Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T23:49:49.260Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T23:49:55.742Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T23:50:30.513Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T23:50:57.598Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T23:51:25.250Z"}
+{"message":"Cannot read property 'lender' of undefined","stack":"TypeError: Cannot read property 'lender' of undefined\n    at getAgreementById (C:\\projects\\babatunde\\etoileApi\\models\\query\\agreement.js:40:15)\n    at process._tickCallback (internal/process/next_tick.js:68:7)","level":"error","timestamp":"2020-01-01T23:51:56.567Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T23:54:47.219Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T23:56:40.604Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-01T23:58:29.444Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T00:00:15.714Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T00:01:55.040Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T00:02:45.029Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T00:06:27.561Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T00:07:11.218Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T00:09:13.709Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T00:10:24.915Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T00:10:33.934Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T00:11:06.991Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T00:11:21.574Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T00:12:08.241Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T00:12:11.791Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T00:12:32.752Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T00:14:41.303Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T00:14:48.098Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T00:15:22.380Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T00:18:32.125Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T00:21:08.241Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T00:21:47.721Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T00:25:40.261Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T00:26:06.138Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T00:28:16.940Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T00:29:16.727Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T01:55:34.486Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T01:56:00.720Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T02:06:01.560Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T02:06:11.400Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T02:06:15.970Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T02:06:56.339Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T02:09:32.443Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T02:09:45.645Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T02:09:56.616Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T02:16:47.945Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T02:17:07.284Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T02:21:45.244Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T02:33:03.064Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T02:33:29.027Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T02:35:10.977Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T02:35:41.465Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T02:35:59.725Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T02:42:47.582Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T02:43:05.199Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T02:43:41.871Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:08:10.991Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:08:55.515Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:09:13.790Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:16:15.358Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:16:37.225Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:20:48.475Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:21:28.899Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:21:45.469Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:22:38.529Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:23:59.778Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:24:08.668Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:24:33.202Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:31:36.074Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:32:02.412Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:32:21.639Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:32:28.137Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:32:38.848Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:33:51.751Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:34:24.752Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:35:19.431Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:36:18.799Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:37:31.457Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:37:36.066Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:38:17.455Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:40:02.699Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:44:42.120Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:44:57.747Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:45:32.131Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:45:46.506Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:45:49.227Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:46:16.921Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:46:40.564Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:47:34.922Z"}
+{"message":"Joi.date(...).required(...).timestamp(...).format is not a function","stack":"TypeError: Joi.date(...).required(...).timestamp(...).format is not a function\n    at validateAgreement (C:\\projects\\babatunde\\etoileApi\\models\\agreement.js:108:8)\n    at router.post (C:\\projects\\babatunde\\etoileApi\\routes\\agreements.js:28:21)\n    at C:\\projects\\babatunde\\etoileApi\\node_modules\\express-async-errors\\index.js:17:20\n    at Layer.handle [as handle_request] (C:\\projects\\babatunde\\etoileApi\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\projects\\babatunde\\etoileApi\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at module.exports (C:\\projects\\babatunde\\etoileApi\\middleware\\auth.js:11:5)\n    at C:\\projects\\babatunde\\etoileApi\\node_modules\\express-async-errors\\index.js:17:20\n    at Layer.handle [as handle_request] (C:\\projects\\babatunde\\etoileApi\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\projects\\babatunde\\etoileApi\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\projects\\babatunde\\etoileApi\\node_modules\\express\\lib\\router\\route.js:112:3)","level":"error","timestamp":"2020-01-02T03:49:22.996Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:50:15.563Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:50:57.793Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:51:04.651Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:53:35.466Z"}
+{"message":"Joi.date(...).required(...).format is not a function","stack":"TypeError: Joi.date(...).required(...).format is not a function\n    at validateAgreement (C:\\projects\\babatunde\\etoileApi\\models\\agreement.js:107:8)\n    at router.post (C:\\projects\\babatunde\\etoileApi\\routes\\agreements.js:28:21)\n    at C:\\projects\\babatunde\\etoileApi\\node_modules\\express-async-errors\\index.js:17:20\n    at Layer.handle [as handle_request] (C:\\projects\\babatunde\\etoileApi\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\projects\\babatunde\\etoileApi\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at module.exports (C:\\projects\\babatunde\\etoileApi\\middleware\\auth.js:11:5)\n    at C:\\projects\\babatunde\\etoileApi\\node_modules\\express-async-errors\\index.js:17:20\n    at Layer.handle [as handle_request] (C:\\projects\\babatunde\\etoileApi\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\projects\\babatunde\\etoileApi\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\projects\\babatunde\\etoileApi\\node_modules\\express\\lib\\router\\route.js:112:3)","level":"error","timestamp":"2020-01-02T03:53:38.231Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T03:59:46.481Z"}
+{"message":"emails is not defined","stack":"ReferenceError: emails is not defined\n    at getAgreementByLenderEmail (C:\\projects\\babatunde\\etoileApi\\models\\query\\agreement.js:22:20)\n    at router.post (C:\\projects\\babatunde\\etoileApi\\routes\\agreements.js:31:36)\n    at C:\\projects\\babatunde\\etoileApi\\node_modules\\express-async-errors\\index.js:17:20\n    at Layer.handle [as handle_request] (C:\\projects\\babatunde\\etoileApi\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\projects\\babatunde\\etoileApi\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at module.exports (C:\\projects\\babatunde\\etoileApi\\middleware\\auth.js:11:5)\n    at C:\\projects\\babatunde\\etoileApi\\node_modules\\express-async-errors\\index.js:17:20\n    at Layer.handle [as handle_request] (C:\\projects\\babatunde\\etoileApi\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\projects\\babatunde\\etoileApi\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\projects\\babatunde\\etoileApi\\node_modules\\express\\lib\\router\\route.js:112:3)","level":"error","timestamp":"2020-01-02T04:00:23.407Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T04:01:04.082Z"}
+{"level":"error","message":"Error while accessing database:  ER_BAD_FIELD_ERROR: Unknown column 'u.emails' in 'on clause'...","timestamp":"2020-01-02T04:01:19.121Z"}
+{"level":"error","message":"undefined 'ER_BAD_FIELD_ERROR: Unknown column \\'u.emails\\' in \\'on clause\\''","timestamp":"2020-01-02T04:01:19.129Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T04:02:19.123Z"}
+{"level":"error","message":"Error while accessing database:  ER_BAD_FIELD_ERROR: Unknown column 'ag.email' in 'on clause'...","timestamp":"2020-01-02T04:02:21.510Z"}
+{"level":"error","message":"undefined 'ER_BAD_FIELD_ERROR: Unknown column \\'ag.email\\' in \\'on clause\\''","timestamp":"2020-01-02T04:02:21.512Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T04:02:36.956Z"}
+{"message":"user is not defined","stack":"ReferenceError: user is not defined\n    at router.post (C:\\projects\\babatunde\\etoileApi\\routes\\agreements.js:45:15)\n    at process._tickCallback (internal/process/next_tick.js:68:7)","level":"error","timestamp":"2020-01-02T04:02:41.393Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T04:03:05.575Z"}
+{"message":"lendersigned is not defined","stack":"ReferenceError: lendersigned is not defined\n    at router.post (C:\\projects\\babatunde\\etoileApi\\routes\\agreements.js:45:36)\n    at process._tickCallback (internal/process/next_tick.js:68:7)","level":"error","timestamp":"2020-01-02T04:03:09.219Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T04:03:32.815Z"}
+{"level":"error","message":"Error while accessing database:  ER_NO_REFERENCED_ROW_2: Cannot add or update a child row: a foreign key constraint fails (`etoile`.`agreement`, CONSTRAINT `fk_lender` FOREIGN KEY (`lender`) REFERENCES `users` (`email`))...","timestamp":"2020-01-02T04:03:37.143Z"}
+{"level":"error","message":"undefined 'ER_NO_REFERENCED_ROW_2: Cannot add or update a child row: a foreign key constraint fails (`etoile`.`agreement`, CONSTRAINT `fk_lender` FOREIGN KEY (`lender`) REFERENCES `users` (`email`))'","timestamp":"2020-01-02T04:03:37.146Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T04:05:34.733Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T04:06:05.034Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T04:06:46.689Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T04:07:09.205Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T04:07:16.005Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T04:10:01.871Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T04:11:24.627Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T04:14:32.125Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T04:14:52.019Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T04:16:17.740Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T04:16:31.931Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T04:19:28.631Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T04:20:56.305Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-02T04:21:26.545Z"}
+{"level":"error","message":"Error while accessing database:  ER_DUP_ENTRY: Duplicate entry 'default' for key 'phone'...","timestamp":"2020-01-02T04:21:33.399Z"}
+{"level":"error","message":"Error while accessing database:  ER_BAD_NULL_ERROR: Column 'email' cannot be null...","timestamp":"2020-01-02T04:21:33.428Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T00:43:00.105Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T00:43:34.948Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T00:58:12.786Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T01:05:46.840Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T01:06:44.753Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T01:08:41.711Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T01:09:10.084Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T01:10:52.466Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T01:11:13.612Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T01:13:35.232Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T01:13:51.559Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T01:14:20.442Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T01:14:35.124Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T01:14:54.257Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T01:16:32.706Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T01:17:17.460Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T01:17:35.354Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T01:27:02.065Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T01:27:07.184Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T01:27:08.134Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T01:27:16.679Z"}
+{"level":"error","message":"Error while accessing database:  ER_FIELD_SPECIFIED_TWICE: Column 'lender' specified twice...","timestamp":"2020-01-03T01:27:59.945Z"}
+{"level":"error","message":"undefined 'ER_FIELD_SPECIFIED_TWICE: Column \\'lender\\' specified twice'","timestamp":"2020-01-03T01:27:59.958Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T01:28:30.604Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T01:30:22.917Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T01:30:32.985Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T01:30:56.452Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T01:31:42.433Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T01:31:55.988Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T02:14:21.214Z"}
+{"level":"error","message":"Error while accessing database:  ER_DUP_ENTRY: Duplicate entry '6369876506' for key 'phone'...","timestamp":"2020-01-03T02:14:26.823Z"}
+{"level":"error","message":"undefined 'ER_DUP_ENTRY: Duplicate entry \\'6369876506\\' for key \\'phone\\''","timestamp":"2020-01-03T02:14:26.830Z"}
+{"message":"Cannot read property 'userid' of undefined","stack":"TypeError: Cannot read property 'userid' of undefined\n    at generateAuthToken (C:\\projects\\babatunde\\etoileApi\\models\\query\\user.js:90:43)\n    at router.post (C:\\projects\\babatunde\\etoileApi\\routes\\users.js:50:23)\n    at process._tickCallback (internal/process/next_tick.js:68:7)","level":"error","timestamp":"2020-01-03T02:15:42.841Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T02:19:21.515Z"}
+{"message":"agreement is not defined","stack":"ReferenceError: agreement is not defined\n    at router.post (C:\\projects\\babatunde\\etoileApi\\routes\\users.js:53:31)\n    at process._tickCallback (internal/process/next_tick.js:68:7)","level":"error","timestamp":"2020-01-03T02:20:16.057Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T02:50:03.767Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T02:53:36.206Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T02:57:24.678Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T02:57:52.387Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T02:58:39.267Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T02:59:51.137Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T02:59:58.564Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T03:00:25.515Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T03:00:39.735Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T03:01:57.861Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T03:02:31.806Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T03:02:49.542Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T03:02:54.383Z"}
+{"message":"column is not defined","stack":"ReferenceError: column is not defined\n    at getAgreementBySigner (C:\\projects\\babatunde\\etoileApi\\models\\query\\agreement.js:131:20)\n    at router.post (C:\\projects\\babatunde\\etoileApi\\routes\\users.js:56:27)\n    at process._tickCallback (internal/process/next_tick.js:68:7)","level":"error","timestamp":"2020-01-03T03:02:59.985Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T03:04:21.755Z"}
+{"message":"Assignment to constant variable.","stack":"TypeError: Assignment to constant variable.\n    at getAgreementBySigner (C:\\projects\\babatunde\\etoileApi\\models\\query\\agreement.js:133:7)\n    at router.post (C:\\projects\\babatunde\\etoileApi\\routes\\users.js:56:27)\n    at process._tickCallback (internal/process/next_tick.js:68:7)","level":"error","timestamp":"2020-01-03T03:04:30.694Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T03:04:57.334Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T03:05:01.190Z"}
+{"level":"error","message":"Error while accessing database:  ER_BAD_FIELD_ERROR: Unknown column 'undefinedsigned' in 'field list'...","timestamp":"2020-01-03T03:05:31.152Z"}
+{"level":"error","message":"undefined 'ER_BAD_FIELD_ERROR: Unknown column \\'undefinedsigned\\' in \\'field list\\''","timestamp":"2020-01-03T03:05:31.156Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T03:08:15.661Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T03:08:40.221Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T03:08:44.683Z"}
+{"message":"Cannot convert undefined or null to object","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.keys (<anonymous>)\n    at router.post (C:\\projects\\babatunde\\etoileApi\\routes\\users.js:58:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)","level":"error","timestamp":"2020-01-03T03:08:48.974Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T03:09:50.449Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T03:11:13.681Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T03:11:51.645Z"}
+{"level":"error","message":"Error while accessing database:  ER_DUP_ENTRY: Duplicate entry '5369876506' for key 'phone'...","timestamp":"2020-01-03T03:12:05.834Z"}
+{"level":"error","message":"undefined 'ER_DUP_ENTRY: Duplicate entry \\'5369876506\\' for key \\'phone\\''","timestamp":"2020-01-03T03:12:05.837Z"}
+{"level":"error","message":"Error while accessing database:  ER_BAD_FIELD_ERROR: Unknown column 'undefinedsigned' in 'field list'...","timestamp":"2020-01-03T03:12:35.079Z"}
+{"level":"error","message":"undefined 'ER_BAD_FIELD_ERROR: Unknown column \\'undefinedsigned\\' in \\'field list\\''","timestamp":"2020-01-03T03:12:35.079Z"}
+{"level":"error","message":"Error while accessing database:  ER_BAD_FIELD_ERROR: Unknown column 'undefinedsigned' in 'field list'...","timestamp":"2020-01-03T03:14:26.130Z"}
+{"level":"error","message":"undefined 'ER_BAD_FIELD_ERROR: Unknown column \\'undefinedsigned\\' in \\'field list\\''","timestamp":"2020-01-03T03:14:26.130Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T03:15:45.525Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T03:17:47.713Z"}
+{"level":"error","message":"Error while accessing database:  ER_DUP_ENTRY: Duplicate entry '6369876506' for key 'phone'...","timestamp":"2020-01-03T03:18:59.637Z"}
+{"level":"error","message":"undefined 'ER_DUP_ENTRY: Duplicate entry \\'6369876506\\' for key \\'phone\\''","timestamp":"2020-01-03T03:18:59.643Z"}
+{"level":"error","message":"Error while accessing database:  ER_DUP_ENTRY: Duplicate entry '7369876507' for key 'phone'...","timestamp":"2020-01-03T04:30:16.554Z"}
+{"level":"error","message":"undefined 'ER_DUP_ENTRY: Duplicate entry \\'7369876507\\' for key \\'phone\\''","timestamp":"2020-01-03T04:30:16.555Z"}
+{"level":"error","message":"Error while accessing database:  ER_BAD_FIELD_ERROR: Unknown column 'lendersigned' in 'field list'...","timestamp":"2020-01-03T04:46:59.858Z"}
+{"level":"error","message":"undefined 'ER_BAD_FIELD_ERROR: Unknown column \\'lendersigned\\' in \\'field list\\''","timestamp":"2020-01-03T04:46:59.859Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T04:48:11.662Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T04:48:47.535Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T04:48:54.553Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T04:51:29.383Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T04:51:39.552Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T05:17:45.681Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-03T22:17:26.976Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-04T02:25:37.625Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-04T02:31:50.762Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-04T02:32:47.955Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-04T02:39:35.383Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-04T02:39:56.099Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-04T03:20:40.992Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-04T03:45:10.523Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-04T03:48:20.854Z"}
