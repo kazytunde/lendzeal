@@ -85,6 +85,24 @@ const registerUser = async ({
   return "Role saved successfully";
 };
 
+const updateUserAddress = async (userid, addressid) => {
+  let sql = `UPDATE users set addressid = ? where userid = ?`;
+  const inserts = [addressid, userid];
+  sql = mysql.format(sql, inserts);
+
+  await query(sql);
+};
+
+const addAddress = async ({ street, city, state, postercode, country }) => {
+  let sql = `INSERT INTO address ( street, city, state, postercode, country ) VALUES (?,?,?,?,?)`;
+  const inserts = [street, city, state, postercode, country];
+  sql = mysql.format(sql, inserts);
+
+  const response = await query(sql);
+
+  return response.insertId;
+};
+
 const generateAuthToken = async user => {
   console.log("user", user);
   const response = await getUserRole(user.userid);
@@ -190,5 +208,7 @@ module.exports = {
   removeUserRole,
   createNewlRole,
   getUserDetailsByEmail,
-  getUserById
+  getUserById,
+  addAddress,
+  updateUserAddress
 };

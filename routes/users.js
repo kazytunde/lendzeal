@@ -10,7 +10,9 @@ const {
   generateAuthToken,
   registerUser,
   getUserDetailsByEmail,
-  getUserById
+  getUserById,
+  updateUserAddress,
+  addAddress
 } = require("../models/query/user");
 
 const {
@@ -24,6 +26,21 @@ router.get("/me", auth, async (req, res) => {
     return res.send("User not found");
   }
   res.send(user);
+});
+
+router.put("/:userId", auth, async (req, res) => {
+  const address = pick(req.body, [
+    "street",
+    "city",
+    "state",
+    "postercode",
+    "country"
+  ]);
+
+  const addressId = await addAddress(address);
+  const updatedUser = await updateUserAddress(req.params.userId, addressId);
+
+  res.send(`User updated successfully`);
 });
 
 router.post("/", async (req, res) => {
