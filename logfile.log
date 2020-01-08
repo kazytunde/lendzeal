@@ -270,3 +270,14 @@
 {"message":"Cannot read property 'agreementid' of undefined","stack":"TypeError: Cannot read property 'agreementid' of undefined\n    at populateTempAgreementDetail (C:\\projects\\babatunde\\etoileApi\\models\\agreement.js:32:28)\n    at getTempAgreementByID (C:\\projects\\babatunde\\etoileApi\\models\\query\\agreement.js:153:10)\n    at process._tickCallback (internal/process/next_tick.js:68:7)","level":"error","timestamp":"2020-01-05T03:43:08.227Z"}
 {"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-05T03:45:43.076Z"}
 {"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-05T03:45:56.534Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T03:25:22.213Z"}
+{"message":"user is not defined","stack":"ReferenceError: user is not defined\n    at generateAuthToken (C:\\projects\\babatunde\\etoileApi\\models\\query\\user.js:90:38)\n    at router.post (C:\\projects\\babatunde\\etoileApi\\routes\\auth.js:17:23)","level":"error","timestamp":"2020-01-08T03:26:07.265Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T03:26:49.347Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T03:28:47.462Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T03:30:01.688Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T03:30:09.580Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T03:30:56.600Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T03:31:32.478Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T03:33:01.574Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T03:34:01.143Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T03:34:34.008Z"}

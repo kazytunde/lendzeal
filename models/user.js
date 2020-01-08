@@ -1,7 +1,7 @@
 const Joi = require("joi");
 
 const populateUser = (
-  { userid, firstname, lastname, phone, email, password },
+  { userid, firstname, lastname, phone, email, password, addressid },
   role
 ) => {
   return {
@@ -11,6 +11,7 @@ const populateUser = (
     phone,
     email,
     password,
+    addressid,
     role: role.map(({ role }) => role)
   };
 };

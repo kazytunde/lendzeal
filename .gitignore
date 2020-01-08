@@ -1,3 +1,5 @@
 node_modules
 users.sql
 .DS_Store
+uncaughtExceptions.log
+logfile.log
