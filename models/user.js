@@ -17,19 +17,9 @@ const populateUser = (
 };
 
 const populateUserDetail = (
-  {
-    userid,
-    firstname,
-    lastname,
-    phone,
-    email,
-    street,
-    city,
-    state,
-    postercode,
-    country,
-    rankingcode
-  },
+  { userid, firstname, lastname, phone, email },
+  address,
+  rank,
   role
 ) => {
   return {
@@ -38,15 +28,9 @@ const populateUserDetail = (
     lastname,
     phone,
     email,
-    ranking: rankingcode,
-    address: {
-      street,
-      city,
-      state,
-      postercode,
-      country
-    },
-    role: role.map(({ role }) => role)
+    ranking: rank ? rank.rankingcode : null,
+    role: role.map(({ role }) => role),
+    address: address ? address : {}
   };
 };
 

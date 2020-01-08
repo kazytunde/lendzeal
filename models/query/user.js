@@ -20,7 +20,9 @@ const getUserByEmail = async email => {
 
 const getUserById = async userid => {
   let sql = `SELECT * FROM users where userid = ?`;
-  return getSingleUser(sql, userid);
+  const user = await getSingleUser(sql, userid);
+
+  return populateUserDetail(user);
 };
 
 const getSingleUser = async (sql, value) => {
@@ -36,36 +38,33 @@ const getSingleUser = async (sql, value) => {
 };
 
 const getUserDetailsByEmail = async email => {
-  let sql = `SELECT 
-  userid,
-  firstname, 
-  lastname, 
-  phone, 
-  email,
-  password, 
-  signaturefilename,
-  street ,
-  city,
-  state ,
-  postercode ,
-  country,
-  rankingcode
-  FROM users u 
-  JOIN address ad on u.addressid = ad.addressid
-  JOIN ranking rk on u.rankid = rk.rankid
-  WHERE email = ? `;
+  let sql = `SELECT * from users WHERE email = ? `;
   const inserts = [email];
   sql = mysql.format(sql, inserts);
 
   const user = await query(sql, SINGLE_ROW);
-  const role = await getUserRole(user.userid);
+  if (isEmpty(user)) {
+    return undefined;
+  }
 
-  return populateUserDetail(user, role);
+  const address = await getUserAddress(user.addressid);
+  const role = await getUserRole(user.userid);
+  const rank = await getUserRank(user.rankid);
+
+  return populateUserDetail(user, address, rank, role);
 };
 
 const getUserAddress = addressId => {
   let sql = `SELECT * FROM address where addressid = ?`;
   const inserts = [addressId];
+  sql = mysql.format(sql, inserts);
+
+  return query(sql, SINGLE_ROW);
+};
+
+const getUserRank = rankId => {
+  let sql = `SELECT * FROM ranking where rankid = ?`;
+  const inserts = [rankId];
   sql = mysql.format(sql, inserts);
 
   return query(sql, SINGLE_ROW);
@@ -92,7 +91,12 @@ const generateAuthToken = async user => {
 
   const roles = response.filter(({ role }) => role === "admin");
   const token = jwt.sign(
-    { email: user.email, isAdmin: !isEmpty(roles), addressId: user.addressid },
+    {
+      userid: user.userid,
+      email: user.email,
+      isAdmin: !isEmpty(roles),
+      addressId: user.addressid
+    },
     config.get("jwtPrivateKey")
   );
 

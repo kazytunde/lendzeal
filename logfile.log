@@ -281,3 +281,32 @@
 {"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T03:33:01.574Z"}
 {"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T03:34:01.143Z"}
 {"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T03:34:34.008Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T03:46:31.078Z"}
+{"message":"Cannot read property 'userid' of undefined","stack":"TypeError: Cannot read property 'userid' of undefined\n    at getUserDetailsByEmail (C:\\projects\\babatunde\\etoileApi\\models\\query\\user.js:61:39)\n    at process._tickCallback (internal/process/next_tick.js:68:7)","level":"error","timestamp":"2020-01-08T03:46:34.097Z"}
+{"message":"Cannot read property 'userid' of undefined","stack":"TypeError: Cannot read property 'userid' of undefined\n    at getUserDetailsByEmail (C:\\projects\\babatunde\\etoileApi\\models\\query\\user.js:61:39)\n    at process._tickCallback (internal/process/next_tick.js:68:7)","level":"error","timestamp":"2020-01-08T03:47:16.299Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T03:47:31.799Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T03:47:39.594Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T03:48:54.920Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T03:49:53.803Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T03:51:26.399Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T03:52:13.429Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T03:52:37.685Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T03:52:49.224Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T03:53:55.146Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T03:55:02.496Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T03:55:07.889Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T04:05:49.326Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T04:06:11.763Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T04:07:00.351Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T04:07:31.062Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T04:08:03.605Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T04:08:19.457Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T04:08:34.578Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T04:11:07.135Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T04:11:16.225Z"}
+{"level":"error","message":"Error while accessing database:  ER_BAD_FIELD_ERROR: Unknown column 'rankid' in 'where clause'...","timestamp":"2020-01-08T04:11:27.248Z"}
+{"level":"error","message":"undefined 'ER_BAD_FIELD_ERROR: Unknown column \\'rankid\\' in \\'where clause\\''","timestamp":"2020-01-08T04:11:27.252Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T04:11:59.358Z"}
+{"message":"rankingcode is not defined","stack":"ReferenceError: rankingcode is not defined\n    at populateUserDetail (C:\\projects\\babatunde\\etoileApi\\models\\user.js:31:14)\n    at getUserDetailsByEmail (C:\\projects\\babatunde\\etoileApi\\models\\query\\user.js:54:10)\n    at process._tickCallback (internal/process/next_tick.js:68:7)","level":"error","timestamp":"2020-01-08T04:12:07.763Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T04:13:14.888Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-08T04:14:04.533Z"}
