@@ -2,7 +2,10 @@ const mysqlconnection = require("../../startup/db").mysqlconnection;
 const mysql = require("mysql");
 const { isEmpty } = require("lodash");
 const winston = require("winston");
-const { populateAgreementDetail } = require("../agreement");
+const {
+  populateAgreementDetail,
+  populateTempAgreementDetail
+} = require("../agreement");
 
 const SINGLE_ROW = 1;
 
@@ -147,8 +150,10 @@ const getTempAgreementByID = async agreementid => {
 
   sql = mysql.format(sql, inserts);
   const agreement = await query(sql, SINGLE_ROW);
-
-  return agreement;
+  if (!agreement) {
+    return `Agreement with the ID ${agreementid} not found`;
+  }
+  return populateTempAgreementDetail(agreement);
 };
 
 const query = (sql, row) => {
@@ -171,5 +176,6 @@ module.exports = {
   createAgreement,
   getAgreementByLenderEmail,
   updateAgreementBySigner,
-  getAgreementBySigner
+  getAgreementBySigner,
+  getTempAgreementByID
 };

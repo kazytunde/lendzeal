@@ -261,3 +261,12 @@
 {"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-04T07:08:11.845Z"}
 {"level":"error","message":"Error while accessing database:  ER_DUP_ENTRY: Duplicate entry '93698765175' for key 'phone'...","timestamp":"2020-01-04T07:08:15.051Z"}
 {"level":"error","message":"undefined 'ER_DUP_ENTRY: Duplicate entry \\'93698765175\\' for key \\'phone\\''","timestamp":"2020-01-04T07:08:15.057Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-05T03:35:04.726Z"}
+{"message":"populateTempAgreementDetail is not defined","stack":"ReferenceError: populateTempAgreementDetail is not defined\n    at getTempAgreementByID (C:\\projects\\babatunde\\etoileApi\\models\\query\\agreement.js:150:3)\n    at process._tickCallback (internal/process/next_tick.js:68:7)","level":"error","timestamp":"2020-01-05T03:36:01.642Z"}
+{"message":"populateTempAgreementDetail is not defined","stack":"ReferenceError: populateTempAgreementDetail is not defined\n    at getTempAgreementByID (C:\\projects\\babatunde\\etoileApi\\models\\query\\agreement.js:150:3)\n    at process._tickCallback (internal/process/next_tick.js:68:7)","level":"error","timestamp":"2020-01-05T03:36:13.387Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-05T03:41:59.799Z"}
+{"message":"populateTempAgreementDetail is not defined","stack":"ReferenceError: populateTempAgreementDetail is not defined\n    at getTempAgreementByID (C:\\projects\\babatunde\\etoileApi\\models\\query\\agreement.js:150:3)\n    at process._tickCallback (internal/process/next_tick.js:68:7)","level":"error","timestamp":"2020-01-05T03:42:05.465Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-05T03:43:04.827Z"}
+{"message":"Cannot read property 'agreementid' of undefined","stack":"TypeError: Cannot read property 'agreementid' of undefined\n    at populateTempAgreementDetail (C:\\projects\\babatunde\\etoileApi\\models\\agreement.js:32:28)\n    at getTempAgreementByID (C:\\projects\\babatunde\\etoileApi\\models\\query\\agreement.js:153:10)\n    at process._tickCallback (internal/process/next_tick.js:68:7)","level":"error","timestamp":"2020-01-05T03:43:08.227Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-05T03:45:43.076Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-05T03:45:56.534Z"}

@@ -8,7 +8,8 @@ const {
   getAllAgreements,
   getAgreementById,
   getAgreementByLenderEmail,
-  createAgreement
+  createAgreement,
+  getTempAgreementByID
 } = require("../models/query/agreement");
 
 const SIGNED_COLUMN_NAME = "signed";
@@ -20,6 +21,11 @@ router.get("/", auth, async (req, res) => {
 
 router.get("/:id", auth, async (req, res) => {
   const agreement = await getAgreementById(req.params.id);
+  res.send(agreement);
+});
+
+router.get("/notcompleted/:id", auth, async (req, res) => {
+  const agreement = await getTempAgreementByID(req.params.id);
   res.send(agreement);
 });
 

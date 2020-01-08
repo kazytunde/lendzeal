@@ -27,29 +27,19 @@ const populateAgreementDetail = (
   };
 };
 
-const populateTempAgreementDetail = (
-  {
-    agreementid,
-    borrowedamount,
-    repaidamount,
-    repaymentdate,
-    createddate,
-    updateddate
-  },
-  { lender, borrower, laywer, witness1, witness2 }
-) => {
+const populateTempAgreementDetail = agreement => {
   return {
-    agreementid,
-    borrowedamount,
-    repaidamount,
-    repaymentdate,
-    createddate,
-    updateddate,
-    lender,
-    borrower,
-    laywer,
-    witness1,
-    witness2
+    agreementid: agreement.agreementid,
+    borrowedamount: agreement.borrowedamount,
+    repaidamount: agreement.repaidamount,
+    repaymentdate: agreement.repaymentdate,
+    createddate: agreement.createddate,
+    updateddate: agreement.updateddate,
+    lender: { email: agreement.lender, signed: agreement.lendersigned },
+    borrower: { email: agreement.borrower, signed: agreement.borrowersigned },
+    lawyer: { email: agreement.lawyer, signed: agreement.lawyersigned },
+    witness1: { email: agreement.witness1, signed: agreement.witness1signed },
+    witness2: { email: agreement.witness2, signed: agreement.witness2signed }
   };
 };
 
@@ -129,5 +119,6 @@ function validateAgreement(agreement) {
 module.exports = {
   populateAgreementDetail,
   validateAgreement,
-  validateAgreementUpdate
+  validateAgreementUpdate,
+  populateTempAgreementDetail
 };
