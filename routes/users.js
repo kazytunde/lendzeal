@@ -38,9 +38,13 @@ router.put("/:userId", auth, async (req, res) => {
   ]);
 
   const addressId = await addAddress(address);
-  const updatedUser = await updateUserAddress(req.params.userId, addressId);
+  await updateUserAddress(req.params.userId, addressId);
 
-  res.send(`User updated successfully`);
+  const user = await getUserDetailsByEmail(req.user.email);
+  if (user === undefined) {
+    return res.send("User not found");
+  }
+  res.send(user);
 });
 
 router.post("/", async (req, res) => {
