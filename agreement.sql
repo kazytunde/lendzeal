@@ -39,8 +39,9 @@ CREATE TABLE agreement (
   borrowedamount decimal(9,2) NOT NULL,
   repaidamount decimal(9,2) NOT NULL DEFAULT '0.00',
   repaymenttype varchar(50),
+  currencyType varchar(50) NOT NULL,
   createddate timestamp DEFAULT CURRENT_TIMESTAMP,
-  repaymentdate date NOT NULL,
+  refundDate date NOT NULL,
   updateddate date,
   CONSTRAINT `fk_deferment` FOREIGN KEY (`defermentid`) REFERENCES `deferment` (`defermentid`),
   CONSTRAINT `fk_payment` FOREIGN KEY (`paymentid`) REFERENCES `payment` (`paymentid`), 
@@ -56,8 +57,8 @@ INSERT INTO document ( filename ) VALUES ('payment1');
 INSERT INTO payment ( amount, type, verified,  comment, paymentby, documentid) VALUES (5000, 'Online Payment', false, 'first payment, thank you.', 2, 1);
 INSERT INTO deferment ( reason, status ) VALUES ('I am broke', 'Accepted');
 INSERT INTO agrementstatus ( userid ) VALUES (1);
-INSERT INTO agreement ( lender, borrower, witness1, witness2, borrowedamount, repaymentdate ) 
-VALUES ("babatunde@gmail.com","ademola@gmail.com","monsurat@gmail.com","asamad@gmail.com",5000,'2020-3-15 00:00:00');
+INSERT INTO agreement ( lender, borrower, witness1, witness2, borrowedamount, refundDate, currencyType ) 
+VALUES ("babatunde@gmail.com","ademola@gmail.com","monsurat@gmail.com","asamad@gmail.com",5000,'2020-3-15 00:00:00', 'Naira');
 
 
 
@@ -71,13 +72,14 @@ CREATE TABLE agreementtemp (
   borrowedamount decimal(9,2) NOT NULL,
   repaidamount decimal(9,2) NOT NULL DEFAULT '0.00',
   repaymenttype varchar(50),
+  currencyType varchar(50) NOT NULL,
   lendersigned boolean DEFAULT false,
   borrowersigned boolean DEFAULT false,
   laywersigned boolean DEFAULT false,
   witness1signed boolean DEFAULT false,
   witness2signed boolean DEFAULT false,
   createddate timestamp DEFAULT CURRENT_TIMESTAMP,
-  repaymentdate date NOT NULL,
+  refundDate date NOT NULL,
   updateddate date
  );
 
@@ -95,8 +97,8 @@ CREATE TRIGGER agreementtemp_after_update
       AND NEW.witness2signed = true
       AND NEW.witness1signed = true))
       THEN
-          INSERT INTO agreement ( lender, borrower, witness1, witness2, borrowedamount, repaymentdate ) 
-          VALUES ( NEW.lender, NEW.borrower, NEW.witness1, NEW.witness2, NEW.borrowedamount, NEW.repaymentdate );
+          INSERT INTO agreement ( lender, borrower, witness1, witness2, borrowedamount, refundDate, currencyType ) 
+          VALUES ( NEW.lender, NEW.borrower, NEW.witness1, NEW.witness2, NEW.borrowedamount, NEW.refundDate, NEW.currencyType );
     END IF;
 END $$
  DELIMITER ;

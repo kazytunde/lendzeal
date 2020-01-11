@@ -45,7 +45,8 @@ router.post("/", auth, async (req, res) => {
     "witness1",
     "witness2",
     "borrowedamount",
-    "repaymentdate",
+    "refundDate",
+    "currencyType",
     "lawyer"
   ]);
 

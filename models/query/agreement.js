@@ -40,7 +40,7 @@ const getAgreementById = async id => {
   witness2,
   borrowedamount, 
   repaidamount,
-  repaymentdate,
+  refundDate,
   createddate,
   updateddate
   FROM agreement 
@@ -90,12 +90,13 @@ const createAgreement = async (
     witness1,
     witness2,
     borrowedamount,
-    repaymentdate,
+    refundDate,
+    currencyType,
     lawyer
   },
   signedColumn
 ) => {
-  let sql = `INSERT INTO agreementtemp (lender, borrower, witness1, witness2, borrowedamount, repaymentdate, lawyer, ?? ) VALUES (?,?,?,?,?,?,?,?)`;
+  let sql = `INSERT INTO agreementtemp (lender, borrower, witness1, witness2, borrowedamount, refundDate, lawyer, currencyType, ?? ) VALUES (?, ?,?,?,?,?,?,?,?)`;
   const inserts = [
     signedColumn,
     lender,
@@ -103,8 +104,9 @@ const createAgreement = async (
     witness1,
     witness2,
     borrowedamount,
-    repaymentdate,
+    refundDate,
     lawyer,
+    currencyType,
     true
   ];
 

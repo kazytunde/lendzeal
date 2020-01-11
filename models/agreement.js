@@ -6,7 +6,7 @@ const populateAgreementDetail = (
     agreementid,
     borrowedamount,
     repaidamount,
-    repaymentdate,
+    refundDate,
     createddate,
     updateddate
   },
@@ -16,7 +16,7 @@ const populateAgreementDetail = (
     agreementid,
     borrowedamount,
     repaidamount,
-    repaymentdate,
+    refundDate,
     createddate,
     updateddate,
     lender: formatUser(lender),
@@ -32,7 +32,8 @@ const populateTempAgreementDetail = agreement => {
     agreementid: agreement.agreementid,
     borrowedamount: agreement.borrowedamount,
     repaidamount: agreement.repaidamount,
-    repaymentdate: agreement.repaymentdate,
+    refundDate: agreement.refundDate,
+    currencyType: agreement.currencyType,
     createddate: agreement.createddate,
     updateddate: agreement.updateddate,
     lender: { email: agreement.lender, signed: agreement.lendersigned },
@@ -69,8 +70,11 @@ function validateAgreementUpdate(user) {
       .min(5)
       .max(50)
       .email(),
+    currencyType: Joi.string()
+      .min(1)
+      .max(50),
     borrowedamount: Joi.number().min(0),
-    repaymentdate: Joi.date()
+    refundDate: Joi.date()
       .timestamp()
       .format("YYYY-MM-DD")
       .greater(new Date())
@@ -108,7 +112,11 @@ function validateAgreement(agreement) {
     borrowedamount: Joi.number()
       .min(0)
       .required(),
-    repaymentdate: Joi.date()
+    currencyType: Joi.string()
+      .min(1)
+      .max(50)
+      .required(),
+    refundDate: Joi.date()
       .required()
       .greater(new Date())
   };
