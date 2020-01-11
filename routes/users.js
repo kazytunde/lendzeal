@@ -40,7 +40,7 @@ router.put("/:userId", auth, async (req, res) => {
   const addressId = await addAddress(address);
   await updateUserAddress(req.params.userId, addressId);
 
-  const user = await getUserDetailsByEmail(req.user.email);
+  const { user } = await getUserDetailsByEmail(req.user.email);
   if (user === undefined) {
     return res.send("User not found");
   }

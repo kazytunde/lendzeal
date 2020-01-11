@@ -51,7 +51,10 @@ const getUserDetailsByEmail = async email => {
   const role = await getUserRole(user.userid);
   const rank = await getUserRank(user.rankid);
 
-  return populateUserDetail(user, address, rank, role);
+  return {
+    password: user.password,
+    user: populateUserDetail(user, address, rank, role)
+  };
 };
 
 const getUserAddress = addressId => {
@@ -104,16 +107,13 @@ const addAddress = async ({ street, city, state, postercode, country }) => {
 };
 
 const generateAuthToken = async user => {
-  console.log("user", user);
   const response = await getUserRole(user.userid);
 
   const roles = response.filter(({ role }) => role === "admin");
   const token = jwt.sign(
     {
       userid: user.userid,
-      email: user.email,
-      isAdmin: !isEmpty(roles),
-      addressId: user.addressid
+      isAdmin: !isEmpty(roles)
     },
     config.get("jwtPrivateKey")
   );

@@ -2,20 +2,25 @@ const Joi = require("joi");
 const bcrypt = require("bcrypt");
 const express = require("express");
 const router = express.Router();
-const { getUserByEmail, generateAuthToken } = require("../models/query/user");
+const {
+  getUserDetailsByEmail,
+  generateAuthToken
+} = require("../models/query/user");
 
 router.post("/", async (req, res) => {
   const { error } = validate(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
-  let user = await getUserByEmail(req.body.email);
-  if (user === undefined) return res.status(400).send("Invalid email");
+  let retrievedUser = await getUserDetailsByEmail(req.body.email);
+  if (retrievedUser === undefined) return res.status(400).send("Invalid email");
 
-  const validPassword = await bcrypt.compare(req.body.password, user.password);
+  const { user, password } = retrievedUser;
+
+  const validPassword = await bcrypt.compare(req.body.password, password);
   if (!validPassword) return res.status(400).send("Invalid password.");
 
   const token = await generateAuthToken(user);
-  res.send(token);
+  res.send({ user, token });
 });
 
 function validate(req) {
