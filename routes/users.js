@@ -21,7 +21,7 @@ const {
 } = require("../models/query/agreement");
 
 router.get("/me", auth, async (req, res) => {
-  const user = await getUserDetailsByEmail(req.user.email);
+  const { user } = await getUserDetailsByEmail(req.user.email);
   if (user === undefined) {
     return res.send("User not found");
   }

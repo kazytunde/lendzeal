@@ -113,6 +113,7 @@ const generateAuthToken = async user => {
   const token = jwt.sign(
     {
       userid: user.userid,
+      email: user.email,
       isAdmin: !isEmpty(roles)
     },
     config.get("jwtPrivateKey")
