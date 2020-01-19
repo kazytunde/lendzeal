@@ -27,8 +27,8 @@ const populateAgreementDetail = (
   };
 };
 
-const populateTempAgreementDetail = agreement => {
-  return {
+const populateTempAgreementDetail = agreements => {
+  return agreements.map(agreement => ({
     agreementid: agreement.agreementid,
     borrowedamount: agreement.borrowedamount,
     repaidamount: agreement.repaidamount,
@@ -49,8 +49,36 @@ const populateTempAgreementDetail = agreement => {
     witness2: {
       email: agreement.witness2,
       signed: agreement.witness2signed === 1
-    }
-  };
+    },
+    completed: false
+  }));
+};
+
+const populateCompletedAgreementDetail = agreements => {
+  return agreements.map(agreement => ({
+    agreementid: agreement.agreementid,
+    borrowedamount: agreement.borrowedamount,
+    repaidamount: agreement.repaidamount,
+    refundDate: agreement.refundDate,
+    currencyType: agreement.currencyType,
+    createddate: agreement.createddate,
+    updateddate: agreement.updateddate,
+    lender: { email: agreement.lender, signed: true },
+    borrower: {
+      email: agreement.borrower,
+      signed: true
+    },
+    lawyer: { email: agreement.lawyer, signed: true },
+    witness1: {
+      email: agreement.witness1,
+      signed: true
+    },
+    witness2: {
+      email: agreement.witness2,
+      signed: true
+    },
+    completed: true
+  }));
 };
 
 function formatUser(user) {
@@ -137,5 +165,6 @@ module.exports = {
   populateAgreementDetail,
   validateAgreement,
   validateAgreementUpdate,
-  populateTempAgreementDetail
+  populateTempAgreementDetail,
+  populateCompletedAgreementDetail
 };

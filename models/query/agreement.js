@@ -4,7 +4,8 @@ const { isEmpty } = require("lodash");
 const winston = require("winston");
 const {
   populateAgreementDetail,
-  populateTempAgreementDetail
+  populateTempAgreementDetail,
+  populateCompletedAgreementDetail
 } = require("../agreement");
 
 const SINGLE_ROW = 1;
@@ -131,9 +132,19 @@ const getAgreementBySigner = async email => {
   const inserts = [email, email, email, email, email];
 
   sql = mysql.format(sql, inserts);
-  const agreement = await query(sql, SINGLE_ROW);
+  const agreement = await query(sql);
 
   return populateTempAgreementDetail(agreement);
+};
+
+const getCompletedAgreementsBySigner = async email => {
+  let sql = `SELECT * from agreement where lender = ? OR borrower = ? or witness1 = ? OR witness2 = ? OR lawyer = ?`;
+  const inserts = [email, email, email, email, email];
+
+  sql = mysql.format(sql, inserts);
+  const agreement = await query(sql);
+
+  return populateCompletedAgreementDetail(agreement);
 };
 
 const getAllTempAgreement = async () => {
@@ -179,5 +190,6 @@ module.exports = {
   getAgreementByLenderEmail,
   updateAgreementBySigner,
   getAgreementBySigner,
-  getTempAgreementByID
+  getTempAgreementByID,
+  getCompletedAgreementsBySigner
 };

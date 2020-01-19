@@ -10,7 +10,8 @@ const {
   getAgreementByLenderEmail,
   createAgreement,
   getTempAgreementByID,
-  getAgreementBySigner
+  getAgreementBySigner,
+  getCompletedAgreementsBySigner
 } = require("../models/query/agreement");
 
 const SIGNED_COLUMN_NAME = "signed";
@@ -32,9 +33,12 @@ router.get("/notcompleted/:id", auth, async (req, res) => {
 
 router.get("/signer/:email", auth, async (req, res) => {
   const agreement = await getAgreementBySigner(req.params.email);
+  const completedAgreement = await getCompletedAgreementsBySigner(
+    req.params.email
+  );
   console.log("agreement", agreement);
-  console.log("req.params.emial", req.params.email);
-  res.send(agreement);
+  console.log("completedAgreement", completedAgreement);
+  res.send([...agreement, ...completedAgreement]);
 });
 
 router.post("/", auth, async (req, res) => {
