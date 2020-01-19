@@ -133,7 +133,7 @@ const getAgreementBySigner = async email => {
   sql = mysql.format(sql, inserts);
   const agreement = await query(sql, SINGLE_ROW);
 
-  return agreement;
+  return populateTempAgreementDetail(agreement);
 };
 
 const getAllTempAgreement = async () => {

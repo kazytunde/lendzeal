@@ -36,11 +36,20 @@ const populateTempAgreementDetail = agreement => {
     currencyType: agreement.currencyType,
     createddate: agreement.createddate,
     updateddate: agreement.updateddate,
-    lender: { email: agreement.lender, signed: agreement.lendersigned },
-    borrower: { email: agreement.borrower, signed: agreement.borrowersigned },
-    lawyer: { email: agreement.lawyer, signed: agreement.lawyersigned },
-    witness1: { email: agreement.witness1, signed: agreement.witness1signed },
-    witness2: { email: agreement.witness2, signed: agreement.witness2signed }
+    lender: { email: agreement.lender, signed: agreement.lendersigned === 1 },
+    borrower: {
+      email: agreement.borrower,
+      signed: agreement.borrowersigned === 1
+    },
+    lawyer: { email: agreement.lawyer, signed: agreement.lawyersigned === 1 },
+    witness1: {
+      email: agreement.witness1,
+      signed: agreement.witness1signed === 1
+    },
+    witness2: {
+      email: agreement.witness2,
+      signed: agreement.witness2signed === 1
+    }
   };
 };
 

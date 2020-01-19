@@ -370,3 +370,10 @@
 {"message":"Joi.string(...).min(...).max(...).require is not a function","stack":"TypeError: Joi.string(...).min(...).max(...).require is not a function\n    at validateAgreement (C:\\projects\\babatunde\\etoileApi\\models\\agreement.js:118:8)\n    at router.post (C:\\projects\\babatunde\\etoileApi\\routes\\agreements.js:35:21)\n    at C:\\projects\\babatunde\\etoileApi\\node_modules\\express-async-errors\\index.js:17:20\n    at Layer.handle [as handle_request] (C:\\projects\\babatunde\\etoileApi\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\projects\\babatunde\\etoileApi\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at module.exports (C:\\projects\\babatunde\\etoileApi\\middleware\\auth.js:11:5)\n    at C:\\projects\\babatunde\\etoileApi\\node_modules\\express-async-errors\\index.js:17:20\n    at Layer.handle [as handle_request] (C:\\projects\\babatunde\\etoileApi\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\projects\\babatunde\\etoileApi\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\projects\\babatunde\\etoileApi\\node_modules\\express\\lib\\router\\route.js:112:3)","level":"error","timestamp":"2020-01-11T03:15:05.250Z"}
 {"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-11T03:15:40.366Z"}
 {"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-11T03:15:43.834Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-11T03:40:48.868Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-19T02:40:33.549Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-19T02:44:04.381Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-19T02:44:31.998Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-19T02:44:39.581Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-19T02:46:41.987Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-01-19T02:47:35.934Z"}
